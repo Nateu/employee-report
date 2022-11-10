@@ -1,6 +1,12 @@
-employees = [
-    {"name": "Max", "age": 17},
-    {"name": "Sepp", "age": 18},
-    {"name": "Nina", "age": 15},
-    {"name": "Mike", "age": 51},
-]
+class EmployeeReport:
+    def __init__(self):
+        self.employees = []
+
+    def report(self):
+        return self.employees
+
+    def add(self, name: str, age: int) -> None:
+        self.employees.append({"name": name, "age": age})
+
+    def report_18_plus(self):
+        return [employee for employee in self.employees if employee["age"] >= 18]
