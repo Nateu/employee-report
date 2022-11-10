@@ -3,7 +3,7 @@ class EmployeeReport:
         self.employees = []
 
     def report(self):
-        return self.employees
+        return dict(sorted(self.employees.items()))
 
     def add(self, name: str, age: int) -> None:
         self.employees.append({"name": name, "age": age})
