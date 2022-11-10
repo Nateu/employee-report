@@ -8,17 +8,21 @@ You’re building an employee management system of a local grocery store. The sh
 name: string (the name of the employee)
 age: number (the age in years of the employee)
 
-### javascript example
-```javascript
-const employees = [
-  { name: 'Max', age: 17 },
-  { name: 'Sepp', age: 18 },
-  { name: 'Nina', age: 15 },
-  { name: 'Mike', age: 51 },
-];
+```python
+employees = [
+        {"name": "Max", "age": 17},
+        {"name": "Sepp", "age": 18},
+        {"name": "Nina", "age": 15},
+        {"name": "Mike", "age": 51},
+    ]
 ```
 
 ## Rules
 Start with the first user-story and write at least one test for every requirement. Try not to look on future requirements upfront and follow the TDD-Cycle strictly.
 
-[ ] As shop owner I want to view a list of all employees who are 18 years or older so that I know who is allowed to work on Sundays.
+[X] As shop owner I want to view a list of all employees who are 18 years or older so that I know who is allowed to work on Sundays.
+
+
+[X] As shop owner I want the list of employees to be sorted by their name, so I can find employees easier.
+
+[ ] As shop owner I want the list of employees to be capitalized, so I can read it better.
