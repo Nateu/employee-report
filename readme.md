@@ -21,6 +21,4 @@ const employees = [
 ## Rules
 Start with the first user-story and write at least one test for every requirement. Try not to look on future requirements upfront and follow the TDD-Cycle strictly.
 
-[x] As shop owner I want to view a list of all employees who are 18 years or older so that I know who is allowed to work on Sundays.
-
-[ ] As shop owner I want the list of employees to be sorted by their name, so I can find employees easier.
+[ ] As shop owner I want to view a list of all employees who are 18 years or older so that I know who is allowed to work on Sundays.
