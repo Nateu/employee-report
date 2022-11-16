@@ -1,2 +1,2 @@
-def test_given_a_set_of_employees_when_report_requested_it_should_list_only_those_of_18_and_older():
+def test():
     pass

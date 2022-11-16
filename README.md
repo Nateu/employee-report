@@ -5,16 +5,16 @@ This Kata was developed to show how overspecification of assertions harms mainta
 ## Problem Description
 You’re building an employee management system of a local grocery store. The shop-owner wants to open the shop on Sunday and due to legal restrictions employees younger than 18 years are not allowed to work Sundays. The employee asks for a reporting feature so she can schedule work shifts. All employees are already stored somewhere and have the following properties:
 
-name: string (the name of the employee)
-age: number (the age in years of the employee)
+name: string (the name of the employee)  
+age: number (the age in years of the employee)  
 
-```javascript
-const employees = [
-  { name: 'Max', age: 17 },
-  { name: 'Sepp', age: 18 },
-  { name: 'Nina', age: 15 },
-  { name: 'Mike', age: 51 },
-];
+```python
+employee_data = [
+    {"name": "Max", "age": 17},
+    {"name": "Sepp", "age": 18},
+    {"name": "Nina", "age": 15},
+    {"name": "Mike", "age": 51},
+]
 ```
 
 ## Rules
