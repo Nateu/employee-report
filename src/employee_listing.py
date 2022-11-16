@@ -5,4 +5,10 @@ class EmployeeListing:
     LISTING = employee_data
 
     def list_18_and_older(self):
-        return [self.LISTING[1], self.LISTING[3]]
+        list = [employee for employee in self.LISTING if employee["age"] >= 18]
+        list.sort(key=self.employee_name)
+        return list
+
+    @staticmethod
+    def employee_name(data):
+        return data["name"]
