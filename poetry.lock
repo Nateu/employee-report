@@ -30,6 +30,14 @@ python-versions = ">=3.6"
 frozenlist = ">=1.1.0"
 
 [[package]]
+name = "args"
+version = "0.1.0"
+description = "Command Arguments for Humans."
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "async-timeout"
 version = "4.0.2"
 description = "Timeout context manager for asyncio programs"
@@ -102,6 +110,17 @@ python-versions = ">=3.7"
 
 [package.dependencies]
 colorama = {version = "*", markers = "platform_system == \"Windows\""}
+
+[[package]]
+name = "clint"
+version = "0.5.1"
+description = "Python Command Line Interface Tools"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+args = "*"
 
 [[package]]
 name = "colorama"
@@ -244,6 +263,18 @@ MarkupSafe = ">=2.0"
 
 [package.extras]
 i18n = ["Babel (>=2.7)"]
+
+[[package]]
+name = "mamba"
+version = "0.11.2"
+description = "The definitive testing tool for Python. Born under the banner of Behavior Driven Development."
+category = "dev"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+clint = "*"
+coverage = "*"
 
 [[package]]
 name = "markupsafe"
@@ -586,17 +617,19 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "a59b89f108f8ddd70cb4101f7bd033c45c3e6bf18396af9de2a871cbd718f242"
+content-hash = "80379e998e3fd2775af7255f59c3c1836cf8491203f317e2fb819d31ed5ccc2b"
 
 [metadata.files]
 aiohttp = []
 aiosignal = []
+args = []
 async-timeout = []
 attrs = []
 black = []
 certifi = []
 charset-normalizer = []
 click = []
+clint = []
 colorama = []
 coverage = []
 debugpy = []
@@ -610,6 +643,7 @@ iniconfig = []
 itsdangerous = []
 jedi = []
 jinja2 = []
+mamba = []
 markupsafe = []
 multidict = []
 mypy-extensions = []
