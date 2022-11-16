@@ -22,3 +22,9 @@ const employees = [
 Start with the first user-story and write at least one test for every requirement. Try not to look on future requirements upfront and follow the TDD-Cycle strictly.
 
 [ ] As shop owner I want to view a list of all employees who are 18 years or older so that I know who is allowed to work on Sundays.
+
+
+### Trying something different
+* bdd style test runner [Mamba](https://mamba-bdd.readthedocs.io/en/latest/)
+* bdd style assertion lib [Expects](https://expects.readthedocs.io/en/stable/)
+
