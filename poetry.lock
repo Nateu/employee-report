@@ -228,6 +228,20 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "isort"
+version = "5.10.1"
+description = "A Python utility / library to sort Python imports."
+category = "dev"
+optional = false
+python-versions = ">=3.6.1,<4.0"
+
+[package.extras]
+pipfile_deprecated_finder = ["pipreqs", "requirementslib"]
+requirements_deprecated_finder = ["pipreqs", "pip-api"]
+colors = ["colorama (>=0.4.3,<0.5.0)"]
+plugins = ["setuptools"]
+
+[[package]]
 name = "itsdangerous"
 version = "2.1.2"
 description = "Safely pass data to untrusted environments and back."
@@ -617,7 +631,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "66b01eb4ac40454d39fd0fbc47050b3c16ceca20ebff9e1d67a92e0ef6eb4f12"
+content-hash = "f593ae16bbffaadb54082de620d4fe459fe39266525dd0c5708aa7d9d2c52682"
 
 [metadata.files]
 aiohttp = []
@@ -640,6 +654,7 @@ frozenlist = []
 idna = []
 importlib-metadata = []
 iniconfig = []
+isort = []
 itsdangerous = []
 jedi = []
 jinja2 = []

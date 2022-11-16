@@ -1,4 +1,5 @@
-from expects import expect, equal, match, be_above_or_equal
+from expects import be_above_or_equal, equal, expect, match
+
 from src.employee_listing import EmployeeListing
 
 

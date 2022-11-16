@@ -1,5 +1,5 @@
-from src.employee_data import employee_data
 from src.employee import Employee
+from src.employee_data import employee_data
 
 
 class EmployeeListing:
