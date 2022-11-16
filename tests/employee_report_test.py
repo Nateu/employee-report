@@ -8,10 +8,10 @@ def test_list_employees_18_and_older():
     expect(eightteen_and_older[1].age).to(be_above_or_equal(18))
 
 
-def test_list_employees_18_and_older_sorted_by_name():
+def test_list_employees_18_and_older_sorted_by_name_descending():
     eightteen_and_older = EmployeeListing().list_18_and_older()
-    expect(eightteen_and_older[0].name.casefold()).to(equal("Mike".casefold()))
-    expect(eightteen_and_older[1].name.casefold()).to(equal("Sepp".casefold()))
+    expect(eightteen_and_older[0].name.casefold()).to(equal("Sepp".casefold()))
+    expect(eightteen_and_older[1].name.casefold()).to(equal("Mike".casefold()))
 
 
 def test_list_employees_18_and_older_sorted_by_capitalized_name():

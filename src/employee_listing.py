@@ -11,7 +11,7 @@ class EmployeeListing:
             for employee in self.LISTING
             if employee["age"] >= 18
         ]
-        list.sort(key=self.employee_name)
+        list.sort(key=self.employee_name, reverse=True)
         return list
 
     @staticmethod
